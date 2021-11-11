@@ -1,0 +1,290 @@
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #000000;
+}
+
+span {
+    margin-left: 2% !important;
+    font-size: 2rem !important;
+}
+
+input{
+    font-size: 2rem !important;
+}
+
+button {
+    font-size: 3rem !important;
+}
+
+table, th, td {
+    font-size: 2rem !important;
+    border: solid 1px black
+}
+
+#player1Tag {
+margin-right: 55% !important;
+}
+
+#player2Tag {
+margin-right: 55% !important;
+}
+
+#player3Tag {
+margin-right: 55% !important;
+}
+
+#player4Tag {
+margin-right: 55% !important;
+}
+
+#actionTable {
+    margin-bottom: 10% !important;
+}
+
+.tableHead {
+    padding: 2% 2% 2% 2% !important;
+}
+
+.rotate1
+{
+    transform: rotate(752.5deg);
+    transition: -webkit-transform 1s;
+  -webkit-transform: rotate(752.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(752.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate2
+{
+    transform: rotate(757deg);
+    transition: -webkit-transform 1s;
+  -webkit-transform: rotate(775deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(775deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate3
+{
+    transform: rotate(797.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(797.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(797.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate4
+{
+    transform: rotate(820deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(820deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(820deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate5
+{
+    transform: rotate(842.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(842.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(842.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate6
+{
+    transform: rotate(865deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(865deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(865deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate7
+{
+    transform: rotate(887.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(887.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(887.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate8
+{
+    transform: rotate(910deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(910deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(910deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate9
+{
+    transform: rotate(932deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(932deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(932deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate10
+{
+    transform: rotate(955deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(955deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(955deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate11
+{
+    transform: rotate(977.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(977.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(977.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate12
+{
+    transform: rotate(1000deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(1000deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(1000deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate13
+{
+    transform: rotate(1022.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(1022.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(1022.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate14
+{
+    transform: rotate(1045deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(1045deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(1045deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate15
+{
+    transform: rotate(1067.5deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(1067.5deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(1067.5deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.rotate16
+{
+    transform: rotate(1090deg);
+    transition: transform 1s;
+  -webkit-transform: rotate(1090deg);
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transform: rotate(1090deg);
+  -moz-transition: -moz-transform 1s;
+}
+
+.cellSelection {
+  animation-name: blink;
+  animation-duration: 5s;
+  -webkit-animation-name: blink;
+  -webkit-animation-duration: 5s;
+  -moz-animation-name: blink;
+  -moz-animation-duration: 5s;
+  }
+
+@keyframes blink {
+  0% {opacity: 1;}
+  10% {opacity: 0;}
+  20% {opacity: 1;}
+  30% {opacity: 0;}
+  40% {opacity: 1;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  70% {opacity: 0;}
+  80% {opacity: 1;}
+  90% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.btn-twister {
+  background-color: #1da4ff;
+  color: #FFFFFF;
+  font-weight: bolder;
+  border: solid 2px black;
+  border-radius: 40px;
+  padding: 20px 7px;
+  margin-top: 10% !important;
+}
+
+.btn-twister:hover {
+  background-color: #FFFFFF;
+  color: #1da4ff;
+  font-weight: bolder;
+  font-style: italic;
+  border: solid 4px #1da4ff;
+  border-radius: 40px;
+  padding: 20px 7px;
+  margin-top: 10% !important;
+}
+
+#spacer1 {
+  border: solid 1 px black;
+}
+
+#spacer2 {
+  border: solid 1 px black;
+}
+
+.lightbox {
+  position: absolute;
+  z-index: 2500;
+  background-color: #ffffff !important;
+  border: 4px solid black;
+  border-radius: 40px;
+  height: 80vw !important;
+  margin-top: 10% !important;
+}
+
+.twisterMap {
+  z-index: 1500 !important;
+  position: absolute !important;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+
+}
+
+.twisterArrow {
+  z-index: 1501 !important;
+  position: absolute !important;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+}
